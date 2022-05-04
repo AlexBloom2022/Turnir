@@ -14,6 +14,7 @@ class GameTest {
     private Player player3 = new Player(3, "third", 3);
     private Player player4 = new Player(4, "fourth", 2);
 
+
     @BeforeEach
     void shouldRegisterAllPlayers() {
         game.registerAll(List.of(player1, player2, player3, player4));
